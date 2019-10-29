@@ -35,6 +35,7 @@ load 5test16.mat;
 
 C=[Test1;Test2;Test3;Test4;Test5;Test6;Test7;Test8;Test9;Test10;Test11;Test12]
 C(isnan(C)) = 0
+testX2=C(:,[1:11 16:34 37:54 56:end])
 
 [m,n]=find(bestchrom==1);
 for i=1:length(n)
