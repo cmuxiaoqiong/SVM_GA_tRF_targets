@@ -10,8 +10,8 @@ SVMtest2.m:
 ----- the code for SVM training
 
 input.mat:
------ trainX31 contains the information of 96 features for 2532 pairs to train in the SVM-GA model. 2532 pairs include 533 positive pairs and 2000 negative pairs. 2000 negative pairs are randomly selected from the pairs with the most 3P-seq tags.(The selecting process are implemented in R 3.5.3 with the seed 20190601)
-predche1 contains the categories for these 2532 pairs
+----- trainX31 contains the information of 96 features for 2547 pairs to train in the SVM-GA model. 2547 pairs include 547 positive pairs and 2000 negative pairs. 2000 negative pairs are randomly selected from the pairs with the most 3P-seq tags.(The selecting process are implemented in R 3.5.3 with the seed 20190601)
+predche1 contains the categories for these 2547 pairs
 bestchrom contains the features selected by GA to train in the SVM model
 
 The tRF-3 input files: 3test1.mat, 3test2.mat, 3test3.mat, 3test4.mat, 3test5.mat, 3test6.mat, 3test7.mat, 3test8.mat, 3test9.mat, 3test10.mat, 3test11.mat
